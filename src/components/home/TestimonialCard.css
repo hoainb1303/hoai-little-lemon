@@ -1,0 +1,38 @@
+.testimonial-card {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  padding: 1rem;
+
+  background: white;
+  border-radius: 16px;
+
+  transition: 0.2s ease;
+}
+
+@media (min-width: 1024px) {
+  .testimonial-card:hover {
+    scale: 1.1;
+  }
+}
+
+.star-solid,
+.star-regular {
+  height: 1.2rem;
+  color: #f4ce14;
+}
+
+.testimonial-comment {
+  margin: 0.5rem 0;
+}
+
+.testimonial-name {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .testimonial-card {
+    flex: 0 0 80%;
+    scroll-snap-align: center;
+  }
+}

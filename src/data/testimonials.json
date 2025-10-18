@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Sarah Johnson",
+    "stars": 5,
+    "comment": "Little Lemon is my new favorite spot in Chicago! Everything tastes so fresh and vibrant. The lemon risotto was absolutely perfect."
+  },
+  {
+    "name": "Michael Roberts",
+    "stars": 5,
+    "comment": "Incredible food and even better service. The staff were friendly and the portions were generous. Definitely coming back soon!"
+  },
+  {
+    "name": "Emily Garcia",
+    "stars": 4,
+    "comment": "Such a charming little place. The grilled shrimp and couscous were packed with flavor, and the atmosphere was cozy and relaxed."
+  },
+  {
+    "name": "David Miller",
+    "stars": 5,
+    "comment": "From the moment we walked in, we felt welcomed. The lemon chicken was juicy and perfectly cooked — easily one of the best meals I’ve had in Chicago."
+  },
+  {
+    "name": "Jessica Brown",
+    "stars": 5,
+    "comment": "Everything about Little Lemon shines with passion. The decor, the food, the people — it all comes together beautifully."
+  },
+  {
+    "name": "Carlos Rivera",
+    "stars": 4,
+    "comment": "Great Mediterranean flavors and excellent cocktails. The staff really know how to make you feel at home."
+  },
+  {
+    "name": "Olivia Thompson",
+    "stars": 5,
+    "comment": "We stopped here during a weekend trip and it was such a pleasant surprise! The lemon tart was the best dessert I’ve had in months."
+  },
+  {
+    "name": "Ethan Walker",
+    "stars": 5,
+    "comment": "Amazing food, friendly service, and a beautiful presentation. Little Lemon truly captures the bright, fresh taste of the Mediterranean."
+  }
+]

@@ -1,0 +1,116 @@
+.navbar {
+  width: 100%;
+}
+
+.navbar-container {
+  box-sizing: border-box;
+  max-width: 1400px;
+  padding: 2rem 10rem;
+  display: grid;
+  grid-template-columns: 13rem 3fr;
+  gap: 3rem;
+  grid-template-rows: 1fr;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.responsive {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-image {
+  width: 100%;
+}
+
+.nav-burger {
+  display: none;
+  height: 2rem;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 0.3rem;
+  justify-content: space-between;
+}
+
+.nav-menu a {
+  width: 100%;
+
+  text-decoration: unset;
+  font-family: "Aleo";
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+}
+
+.nav-menu li:has(.active) {
+  background: #f4ce14;
+  color: white;
+}
+
+.nav-menu li {
+  transition: 0.2s ease;
+  border-radius: 9in;
+  padding: 0rem 1rem;
+  outline: 0px solid #f4ce1480;
+}
+
+.nav-menu li:hover {
+  background: #f4ce14;
+  outline: 5px solid #f4ce1480;
+}
+
+/* 🔹 Small Desktop Screens (720P) */
+@media (max-width: 1280px) {
+  .navbar-container {
+    gap: 1rem;
+    padding: 2rem 5rem;
+  }
+}
+
+/* 🔹 Mid screens (Tablet) */
+@media (max-width: 1024px) {
+  .navbar-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 0;
+    padding: 1rem 3rem;
+  }
+
+  .nav-image {
+    width: 15rem;
+  }
+
+  .nav-burger {
+    display: unset;
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+}
+
+/* 🔹 Small screens (mobile) */
+@media (max-width: 768px) {
+  .navbar-container {
+    padding: 1rem 1.5rem;
+  }
+
+  .nav-image {
+    width: 10rem;
+  }
+
+  .nav-list {
+    gap: 1rem;
+  }
+}
+
+.nav-open {
+  display: flex;
+}
