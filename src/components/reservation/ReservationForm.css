@@ -1,0 +1,134 @@
+.reservation-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "title title"
+    "subtitle subtitle"
+    "date time"
+    "guests occasion"
+    "comment comment"
+    "first-name last-name"
+    "email email"
+    "phone phone"
+    "submit submit";
+
+  gap: 0 2rem;
+  padding: 3em;
+
+  background: white;
+  border-radius: 16px;
+}
+
+.form-title {
+  grid-area: title;
+
+  margin: 0;
+}
+
+.form-subtitle {
+  grid-area: subtitle;
+
+  margin: 0;
+}
+
+.reservation-form section {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 0.5rem;
+}
+
+.reservation-form label {
+  margin: 0;
+}
+
+.reservation-form input {
+  padding: 0.5rem;
+
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+}
+
+.reservation-form textarea {
+  padding: 0.5rem;
+
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+}
+
+.reservation-form select {
+  padding: 0.5rem;
+
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+}
+
+input.error {
+  padding: 0.5rem;
+
+  border: 1px solid #ef4444;
+  border-radius: 5px;
+}
+
+label.error {
+  color: #ef4444;
+}
+
+.error-message {
+  margin: 0;
+  height: 1.5rem;
+
+  color: #ef4444;
+
+  font-size: 0.8rem;
+}
+
+.form-date {
+  grid-area: date;
+}
+
+.form-time {
+  grid-area: time;
+}
+
+.form-guests {
+  grid-area: guests;
+}
+
+.form-occasion {
+  grid-area: occasion;
+}
+
+.form-comment {
+  grid-area: comment;
+}
+
+.form-first-name {
+  grid-area: first-name;
+}
+
+.form-last-name {
+  grid-area: last-name;
+}
+
+.form-email {
+  grid-area: email;
+}
+.form-phone {
+  grid-area: phone;
+}
+
+.submit-button {
+  grid-area: submit;
+}
+
+/* For Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
