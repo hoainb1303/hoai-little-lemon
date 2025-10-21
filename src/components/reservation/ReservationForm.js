@@ -38,8 +38,8 @@ const ReservationForm = ({ availableTimes, dispatchTimes, submitData }) => {
         return parseInt(value) > 0
           ? parseInt(value) < 21
             ? ""
-            : "Guests should be from 1 to 20"
-          : "Guests should be from 1 to 20";
+            : "Guests must be between 1 and 20"
+          : "Guests must be between 1 and 20";
       }
       case "firstName": {
         if (value === "") {
@@ -327,7 +327,12 @@ const ReservationForm = ({ availableTimes, dispatchTimes, submitData }) => {
         />
         <span className="error-message">{errors["phone"]}</span>
       </section>
-      <button className="submit-button" type="submit" disabled={!isValidated()}>
+      <button
+        id="submit-button"
+        className="submit-button"
+        type="submit"
+        disabled={!isValidated()}
+      >
         Save My Spot
       </button>
     </form>

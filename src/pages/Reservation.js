@@ -5,12 +5,12 @@ import "./Reservation.css";
 
 import ReservationForm from "../components/reservation/ReservationForm";
 
-const initializeTimes = () => {
+export const initializeTimes = () => {
   const today = new Date();
   return fetchAPI(today);
 };
 
-const updateTimes = (state, action) => {
+export const updateTimes = (state, action) => {
   switch (action.type) {
     case "update_times":
       // create a new date variable from date that provided
