@@ -1,4 +1,4 @@
-const Login = () => {
+const Order = () => {
   return (
     <section
       style={{
@@ -13,10 +13,10 @@ const Login = () => {
           color: "white",
         }}
       >
-        LOGIN PAGE
+        ORDER PAGE
       </h1>
     </section>
   );
 };
 
-export default Login;
+export default Order;

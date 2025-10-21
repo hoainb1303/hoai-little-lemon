@@ -5,17 +5,21 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Reservation from "./pages/Reservation";
+import ReservationConfirm from "./pages/ReservationConfirm";
+import Order from "./pages/Order";
 import Login from "./pages/Login";
 import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Router class="main-layout">
+    <Router className="main-layout">
       <Navbar />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/reservations" element={<Reservation />} />
+          <Route path="/reservation" element={<Reservation />} />
+          <Route path="/reservation-confirm" element={<ReservationConfirm />} />
+          <Route path="/order" element={<Order />} />
           <Route path="/login" element={<Login />} />
         </Routes>
       </main>

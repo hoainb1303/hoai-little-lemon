@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import "./Specials.css";
 import SpecialsCard from "./SpecialsCard";
 import GreekSalad from "../../assets/images/greek-salad.jpg";
@@ -7,11 +7,11 @@ import LemonDessert from "../../assets/images/lemon-dessert.jpg";
 
 const Specials = () => {
   return (
-    <div className="specials">
+    <div id="specials" className="specials">
       <article className="specials-container">
         <section className="specials-top">
           <h1>This weeks specials!</h1>
-          <Link className="button-online-menu" to="/menu">
+          <Link smooth className="button-online-menu" to="/#specials">
             Online Menu
           </Link>
         </section>

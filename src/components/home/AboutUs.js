@@ -5,7 +5,7 @@ import AboutImageA from "../../assets/images/about-b.jpg";
 
 const AboutUs = () => {
   return (
-    <div className="about-us">
+    <div id="about-us" className="about-us">
       <article className="about-container">
         <section className="about-info">
           <h1>Little Lemon</h1>

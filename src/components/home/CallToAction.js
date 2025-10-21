@@ -5,7 +5,7 @@ import heroImage from "../../assets/images/hero.jpg";
 
 const CallToAction = () => {
   return (
-    <div className="call-to-action">
+    <div id="action" className="call-to-action">
       <article className="hero">
         <section className="hero-text">
           <h1>Little Lemon</h1>
@@ -15,7 +15,7 @@ const CallToAction = () => {
             Street in Chicago, Illionis. We focus on traditional recipes served
             with a modern twist.
           </p>
-          <Link className="action-button" to="/reservations">
+          <Link className="action-button" to="/reservation">
             Reserve a table
           </Link>
         </section>

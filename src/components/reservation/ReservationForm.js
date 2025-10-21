@@ -2,7 +2,7 @@ import "./ReservationForm.css";
 
 import { useState, useEffect } from "react";
 
-const ReservationForm = ({ availableTimes, dispatchTimes }) => {
+const ReservationForm = ({ availableTimes, dispatchTimes, submitData }) => {
   const today = new Date().toLocaleDateString("en-CA").split("T")[0];
 
   // const [occasion, setOccasion] = useState("");
@@ -88,6 +88,7 @@ const ReservationForm = ({ availableTimes, dispatchTimes }) => {
     return true;
   };
 
+  // run once
   useEffect(() => {
     isValidated();
   }, []);
@@ -114,12 +115,16 @@ const ReservationForm = ({ availableTimes, dispatchTimes }) => {
     setErrors({ ...errors, [name]: validateField(name, value) });
   };
 
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+    submitData({ formData });
+  };
+
   return (
-    <form className="reservation-form">
+    <form className="reservation-form" onSubmit={handleFormSubmit}>
       <h1 className="form-title">Reserve a Table</h1>
       <p className="form-subtitle">
         Please fill in and submit form to book your reservation at Little Lemon.
-        {today}
       </p>
       {/* Date form */}
       <section className="form-date">
@@ -148,7 +153,9 @@ const ReservationForm = ({ availableTimes, dispatchTimes }) => {
             Select your time
           </option>
           {availableTimes.map((t) => (
-            <option key={t}>{t}</option>
+            <option key={t} value={t}>
+              {t}
+            </option>
           ))}
         </select>
         <span className="error-message">{errors["time"]}</span>
@@ -156,8 +163,18 @@ const ReservationForm = ({ availableTimes, dispatchTimes }) => {
 
       {/* Guest form */}
       <section className="form-guests">
-        <label htmlFor="guests">Number of guests</label>
+        <label
+          className={
+            errors["guests"] !== undefined && errors["guests"] !== "" && "error"
+          }
+          htmlFor="guests"
+        >
+          Number of guests
+        </label>
         <input
+          className={
+            errors["guests"] !== undefined && errors["guests"] !== "" && "error"
+          }
           type="number"
           id="guests"
           name="guests"
@@ -169,7 +186,9 @@ const ReservationForm = ({ availableTimes, dispatchTimes }) => {
 
       {/* Occasion form */}
       <section className="form-occasion">
-        <label htmlFor="occasion">Occasion</label>
+        <label htmlFor="occasion">
+          Occasion <em>(optional)</em>
+        </label>
         <select
           id="occasion"
           name="occasion"
@@ -181,7 +200,9 @@ const ReservationForm = ({ availableTimes, dispatchTimes }) => {
           </option>
           {["None", "Birthday", "Anniversary", "Engagement", "Other"].map(
             (t) => (
-              <option key={t}>{t}</option>
+              <option key={t} value={t}>
+                {t}
+              </option>
             )
           )}
         </select>
@@ -190,12 +211,14 @@ const ReservationForm = ({ availableTimes, dispatchTimes }) => {
 
       {/* Comment form */}
       <section className="form-comment">
-        <label htmlFor="comment">Special instruction</label>
+        <label htmlFor="comment">
+          Special instruction <em>(optional)</em>
+        </label>
         <textarea
           id="comment"
           name="comment"
           placeholder="Let us know if you have any special needs or preferences"
-          rows={4}
+          maxLength={1000}
           value={formData.comment}
           onChange={handleChange}
         ></textarea>

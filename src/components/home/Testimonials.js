@@ -4,7 +4,7 @@ import testimonialsData from "../../data/testimonials.json";
 import TestimonialsCard from "./TestimonialCard";
 const Testimonials = () => {
   return (
-    <div className="testimonials">
+    <div id="testimonials" className="testimonials">
       <article className="testimonials-container">
         <h1 className="testimonials-title">Testimonials</h1>
         <section className="testimonials-list">
