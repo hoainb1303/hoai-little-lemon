@@ -1,32 +1,31 @@
-# My version of Little Lemon Restaurant Website
+# 🍋 Little Lemon Restaurant
 
-This project is a **React-based restaurant reservation and menu website** built as part of the **Meta Front-End Developer Capstone** on Coursera.
+A React front-end project built as part of the **Meta Front-End Developer Professional Certificate**.  
+It demonstrates form handling, routing, accessibility, and responsive UI design.
 
-It demonstrates key front-end skills including:
-- React components, props and hooks
-- React Router for page navigation
-- Form validation and submission handling
-- Unit testing with Jest and React Testing Library
-- Responsive design with CSS Grid and Flexbox
+## 🚀 Live Demo
 
----
+👉 [View Live Demo](https://hoainb1303.github.io/hoai-little-lemon)
 
-# Setup and Installation
-Instructions for cloning the repository and setting up the project locally for development:
+## 🧩 Tech Stack
 
-Clone the Repository
+- React (Create React App)
+- React Router
+- Tailwind CSS / CSS Modules
+- gh-pages for deployment
+
+## 🧠 Features
+
+- 📅 Table reservation form with validation
+- 🧭 Navigation with React Router
+- ♿ Accessibility-focused structure
+- 📱 Fully responsive design
+
+## 🛠️ Setup & Run Locally
+
 ```bash
 git clone https://github.com/hoainb1303/hoai-little-lemon.git
-```
-Navigate to the Directory
-```bash
-cd hoai-little-lemon
-```
-Install Dependencies
-```bash
+cd little-lemon
 npm install
-```
-Run the Development Server
-```bash
-npm run start
+npm start
 ```
