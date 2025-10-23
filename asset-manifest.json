@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hoai-little-lemon/static/css/main.63ea1e71.css",
-    "main.js": "/hoai-little-lemon/static/js/main.4c9de01d.js",
+    "main.js": "/hoai-little-lemon/static/js/main.d4f18107.js",
     "static/js/453.fc66d69e.chunk.js": "/hoai-little-lemon/static/js/453.fc66d69e.chunk.js",
     "static/media/about-b.jpg": "/hoai-little-lemon/static/media/about-b.7f44c6d6e341a27d14b3.jpg",
     "static/media/about-a.jpg": "/hoai-little-lemon/static/media/about-a.4b4c2d26b514db32e8fc.jpg",
@@ -20,11 +20,11 @@
     "static/media/bars.svg": "/hoai-little-lemon/static/media/bars.a9b5662078fd85dc3827a6d97ed76e2a.svg",
     "static/media/facebook-f.svg": "/hoai-little-lemon/static/media/facebook-f.3791d83dac5dc85dcc6b393674cfd230.svg",
     "main.63ea1e71.css.map": "/hoai-little-lemon/static/css/main.63ea1e71.css.map",
-    "main.4c9de01d.js.map": "/hoai-little-lemon/static/js/main.4c9de01d.js.map",
+    "main.d4f18107.js.map": "/hoai-little-lemon/static/js/main.d4f18107.js.map",
     "453.fc66d69e.chunk.js.map": "/hoai-little-lemon/static/js/453.fc66d69e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63ea1e71.css",
-    "static/js/main.4c9de01d.js"
+    "static/js/main.d4f18107.js"
   ]
 }
