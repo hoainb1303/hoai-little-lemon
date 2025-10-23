@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/hoai-little-lemon/static/css/main.63ea1e71.css",
+    "main.js": "/hoai-little-lemon/static/js/main.d2d61858.js",
+    "static/js/453.fc66d69e.chunk.js": "/hoai-little-lemon/static/js/453.fc66d69e.chunk.js",
+    "static/media/about-b.jpg": "/hoai-little-lemon/static/media/about-b.7f44c6d6e341a27d14b3.jpg",
+    "static/media/about-a.jpg": "/hoai-little-lemon/static/media/about-a.4b4c2d26b514db32e8fc.jpg",
+    "static/media/greek-salad.jpg": "/hoai-little-lemon/static/media/greek-salad.bed423a1fab5b210e347.jpg",
+    "static/media/hero.jpg": "/hoai-little-lemon/static/media/hero.e8abf5b772b6817189aa.jpg",
+    "static/media/bruschetta.jpg": "/hoai-little-lemon/static/media/bruschetta.b0415dd9cd625aa27e44.jpg",
+    "static/media/footer-logo.png": "/hoai-little-lemon/static/media/footer-logo.2c859235d6c57bb54176.png",
+    "static/media/logo.png": "/hoai-little-lemon/static/media/logo.d4cae6fac8384c2dae04.png",
+    "index.html": "/hoai-little-lemon/index.html",
+    "static/media/instagram.svg": "/hoai-little-lemon/static/media/instagram.1238d54f04f13208d89964e9f2253d79.svg",
+    "static/media/moped.svg": "/hoai-little-lemon/static/media/moped.77de44d5a63f28eb517d721dbd010f36.svg",
+    "static/media/badge-check.svg": "/hoai-little-lemon/static/media/badge-check.cc3fa1f162e7882dc0aab4dd88c50abd.svg",
+    "static/media/star.svg": "/hoai-little-lemon/static/media/star.8da6df39a30539e6b0c89a939b903b77.svg",
+    "static/media/tiktok.svg": "/hoai-little-lemon/static/media/tiktok.68fed90e660aaecfcc99a1a2d510e20d.svg",
+    "static/media/star-solid.svg": "/hoai-little-lemon/static/media/star-solid.b7e7167b5392c54afa46686af64770ed.svg",
+    "static/media/bars.svg": "/hoai-little-lemon/static/media/bars.a9b5662078fd85dc3827a6d97ed76e2a.svg",
+    "static/media/facebook-f.svg": "/hoai-little-lemon/static/media/facebook-f.3791d83dac5dc85dcc6b393674cfd230.svg",
+    "main.63ea1e71.css.map": "/hoai-little-lemon/static/css/main.63ea1e71.css.map",
+    "main.d2d61858.js.map": "/hoai-little-lemon/static/js/main.d2d61858.js.map",
+    "453.fc66d69e.chunk.js.map": "/hoai-little-lemon/static/js/453.fc66d69e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63ea1e71.css",
+    "static/js/main.d2d61858.js"
+  ]
+}
